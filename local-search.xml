@@ -11,12 +11,6 @@
     <content type="html"><![CDATA[<figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java">pitch = Math.atan2(-y, Math.sqrt(x * x + z * z)) * <span class="hljs-number">180</span> / Math.PI <span class="hljs-comment">// 玩家视角的左右移动</span><br>yaw = Math.atan2(-x, z) * <span class="hljs-number">180</span> / Math.PI <span class="hljs-comment">// 玩家视角的上下移动</span><br></code></pre></td></tr></tbody></table></figure>]]></content>
     
     
-    <categories>
-      
-      <category>Minecraft</category>
-      
-    </categories>
-    
     
     <tags>
       
