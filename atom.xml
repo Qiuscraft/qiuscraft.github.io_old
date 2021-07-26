@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-26T12:08:31.993Z</updated>
+  <updated>2021-07-26T12:11:28.377Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,14 @@
     <link href="http://example.com/2021/07/22/%E7%94%B1vector%E8%8E%B7%E5%8F%96pitch%E5%92%8Cyaw/"/>
     <id>http://example.com/2021/07/22/%E7%94%B1vector%E8%8E%B7%E5%8F%96pitch%E5%92%8Cyaw/</id>
     <published>2021-07-22T11:14:51.000Z</published>
-    <updated>2021-07-26T12:08:31.993Z</updated>
+    <updated>2021-07-26T12:11:28.377Z</updated>
     
-    <content type="html"><![CDATA[<p>pitch: 玩家视角绕Minecraft的x轴旋转的角度<br>yaw: 玩家视角绕Minecraft的y轴旋转的角度</p><figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java">pitch = Math.atan2(-y, Math.sqrt(x * x + z * z)) * <span class="hljs-number">180</span> / Math.PI<br>yaw = Math.atan2(-x, z) * <span class="hljs-number">180</span> / Math.PI<br></code></pre></td></tr></tbody></table></figure>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java">pitch = Math.atan2(-y, Math.sqrt(x * x + z * z)) * <span class="hljs-number">180</span> / Math.PI<br>yaw = Math.atan2(-x, z) * <span class="hljs-number">180</span> / Math.PI<br></code></pre></td></tr></tbody></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;pitch: 玩家视角绕Minecraft的x轴旋转的角度&lt;br&gt;yaw: 玩家视角绕Minecraft的y轴旋转的角度&lt;/p&gt;
-&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre</summary>
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre</summary>
       
     
     
@@ -37,7 +36,9 @@
     <category term="Minecraft" scheme="http://example.com/categories/Minecraft/"/>
     
     
-    <category term="Minecraft插件开发, 视角" scheme="http://example.com/tags/Minecraft%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91-%E8%A7%86%E8%A7%92/"/>
+    <category term="Minecraft插件开发" scheme="http://example.com/tags/Minecraft%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="视角" scheme="http://example.com/tags/%E8%A7%86%E8%A7%92/"/>
     
   </entry>
   

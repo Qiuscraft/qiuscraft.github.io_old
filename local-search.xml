@@ -8,7 +8,7 @@
     <link href="/2021/07/22/%E7%94%B1vector%E8%8E%B7%E5%8F%96pitch%E5%92%8Cyaw/"/>
     <url>/2021/07/22/%E7%94%B1vector%E8%8E%B7%E5%8F%96pitch%E5%92%8Cyaw/</url>
     
-    <content type="html"><![CDATA[<p>pitch: 玩家视角绕Minecraft的x轴旋转的角度<br>yaw: 玩家视角绕Minecraft的y轴旋转的角度</p><figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java">pitch = Math.atan2(-y, Math.sqrt(x * x + z * z)) * <span class="hljs-number">180</span> / Math.PI<br>yaw = Math.atan2(-x, z) * <span class="hljs-number">180</span> / Math.PI<br></code></pre></td></tr></tbody></table></figure>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java">pitch = Math.atan2(-y, Math.sqrt(x * x + z * z)) * <span class="hljs-number">180</span> / Math.PI<br>yaw = Math.atan2(-x, z) * <span class="hljs-number">180</span> / Math.PI<br></code></pre></td></tr></tbody></table></figure>]]></content>
     
     
     <categories>
@@ -20,7 +20,9 @@
     
     <tags>
       
-      <tag>Minecraft插件开发, 视角</tag>
+      <tag>Minecraft插件开发</tag>
+      
+      <tag>视角</tag>
       
     </tags>
     
