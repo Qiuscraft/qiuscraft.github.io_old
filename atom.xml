@@ -69,9 +69,9 @@
     <link href="http://example.com/2021/07/22/%E7%94%B1vector%E8%8E%B7%E5%8F%96pitch%E5%92%8Cyaw/"/>
     <id>http://example.com/2021/07/22/%E7%94%B1vector%E8%8E%B7%E5%8F%96pitch%E5%92%8Cyaw/</id>
     <published>2021-07-22T11:14:51.000Z</published>
-    <updated>2021-07-26T12:11:28.377Z</updated>
+    <updated>2021-08-04T05:48:04.246Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java">pitch = Math.atan2(-y, Math.sqrt(x * x + z * z)) * <span class="hljs-number">180</span> / Math.PI<br>yaw = Math.atan2(-x, z) * <span class="hljs-number">180</span> / Math.PI<br></code></pre></td></tr></tbody></table></figure>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java">yaw = Math.atan2(-x, z) * <span class="hljs-number">180</span> / Math.PI <span class="hljs-comment">// 偏航角</span><br>pitch = Math.atan2(-y, Math.sqrt(x * x + z * z)) * <span class="hljs-number">180</span> / Math.PI <span class="hljs-comment">// 俯仰角</span><br></code></pre></td></tr></tbody></table></figure>]]></content>
     
     
       

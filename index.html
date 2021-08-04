@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+<html lang="zh-CN" data-default-color-scheme=&quot;auto&quot;>
 
 
 
@@ -296,7 +296,7 @@
           
             
           
-          12pitch = Math.atan2(-y, Math.sqrt(x * x + z * z)) * 180 / Math.PIyaw = Math.atan2(-x, z) * 180 / Math.PI
+          12yaw = Math.atan2(-x, z) * 180 / Math.PI // 偏航角pitch = Math.atan2(-y, Math.sqrt(x * x + z * z)) * 180 / Math.PI // 俯仰角
         </a>
       </p>
 
@@ -465,5 +465,20 @@
 <script  src="/js/boot.js" ></script>
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
